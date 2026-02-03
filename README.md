@@ -135,14 +135,16 @@ python check_health.py
 
 ```
 wg-automation/
-├── main.py           # Hauptlogik + Scheduler
-├── services.py       # API-Services (Flatastic, WhatsApp, State)
-├── config.py         # Konfiguration aus .env
-├── check_health.py   # Health-Check Script
-├── __test.py         # Interaktive Test-Suite
-├── task_state.json   # Persistierter Task-Status (generiert)
-├── requirements.txt  # Python Dependencies
-└── .env              # Secrets (nicht committen!)
+├── main.py              # Hauptlogik + Scheduler
+├── services.py          # API-Services (Flatastic, WhatsApp, State)
+├── config.py            # Konfiguration aus .env
+├── task_state.json      # Persistierter Task-Status (generiert)
+├── requirements.txt     # Python Dependencies
+├── .env                 # Secrets (nicht committen!)
+└── utils/
+    ├── __test.py            # Interaktive Test-Suite
+    ├── check_health.py      # Health-Check Script
+    └── get_last_5_groups.py # Hilfstool: Letzte 5 WhatsApp-Gruppen abrufen
 ```
 
 ## ⚠️ Bekannte Limitierungen
@@ -153,4 +155,4 @@ wg-automation/
 
 ---
 
-*🤖 Dieses Projekt wurde vibcoded.*
+*🤖 100% vibecoding!*
