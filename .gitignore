@@ -1,0 +1,16 @@
+# Python Standard
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Runtime Data (Der Bot State)
+task_state.json
+
+# IDE Settings (optional)
+.vscode/
+.idea/
